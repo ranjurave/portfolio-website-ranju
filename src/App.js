@@ -14,7 +14,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          LinkedIn
+          Ranju LinkedIn
         </a>
       </header>
     </div>
