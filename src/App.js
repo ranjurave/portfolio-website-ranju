@@ -16,6 +16,14 @@ function App() {
         >
           Ranju LinkedIn
         </a>
+        <a
+          className="Git-link"
+          href="https://github.com/ranjurave"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ranju Projects
+        </a>
       </header>
     </div>
   );
