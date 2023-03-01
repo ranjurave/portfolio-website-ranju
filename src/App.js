@@ -7,10 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Ranju Raveendran</h1>
-        <h3> Fullstack Developer</h3>
+        <h3> Web & Game Developer</h3>
         <a
           className="App-link"
-          href="https://www.linkedin.com/in/ranju-raveendran-3588b91a/"
+          href="https://www.linkedin.com/in/ranjurave/"
           target="_blank"
           rel="noopener noreferrer"
         >
