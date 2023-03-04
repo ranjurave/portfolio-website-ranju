@@ -1,31 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Menu from './components/Menu'; 
+import Banner from './components/Banner';
+import About from './components/About';
+import Experience from './components/Experience';
+import Works from './components/Works';
+import Education from './components/Education';
+import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hi, I am</p>
-        <h1>Ranju Raveendran</h1>
-        <h3> Web & Game Developer</h3>
-        <a
-          className="App-link"
-          href="https://www.linkedin.com/in/ranjurave/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Ranju LinkedIn
-        </a>
-        <a
-          className="App-link"
-          href="https://github.com/ranjurave"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Ranju Projects
-        </a>
-      </header>
+    <div>
+      <Menu> </Menu>
+      <Banner></Banner>
+      <About></About>
+      <Experience></Experience>
+      <Works></Works>
+      <Education></Education>
+      <Contact></Contact>
     </div>
   );
 }
