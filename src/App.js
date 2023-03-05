@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div>
+    <div className='FullPage'>
       <Menu> </Menu>
       <Banner></Banner>
       <About></About>

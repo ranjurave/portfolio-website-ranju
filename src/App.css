@@ -1,0 +1,4 @@
+.FullPage{
+    display: flex;
+    flex-direction: column;
+}
