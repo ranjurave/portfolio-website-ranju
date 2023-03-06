@@ -2,7 +2,7 @@ import React from 'react'
 import './Works.css'
 function Works() {
   return (
-    <div>
+    <div className='Works'>
       <h1>Works</h1>
       <div className="grid-container">
         <div className="grid-item">1</div>

@@ -1,9 +1,10 @@
 import React, { useId } from 'react'
+import './Contact.css'
 
 function Contact() {
   const subject = useId();
   return (
-    <div>
+    <div className='Contact'>
       <h1>Contact</h1>
       <form>
         <label htmlFor="fname">First Name</label>

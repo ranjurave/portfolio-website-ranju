@@ -2,7 +2,7 @@ import React from 'react'
 import './Experience.css';
 function Experience() {
   return (
-    <div>
+    <div className='Experience'>
       <h1>Experience</h1>
       <h3>Yoobee College</h3>
       <div className="content">
