@@ -3,15 +3,16 @@ import './Experience.css';
 function Experience() {
   return (
     <div>
-      <h1>Yoobee College</h1>
+      <h1>Experience</h1>
+      <h3>Yoobee College</h3>
       <div className="content">
         <p>Delivering Web and Game dev courses</p>
       </div>
-      <h1>Native Software</h1>
+      <h3>Native Software</h3>
       <div className="content">
         <p>Developed WebAPI</p>
       </div>
-      <h1>Huhu Studios</h1>
+      <h3>Huhu Studios</h3>
       <div className="content">
         <p>Senior Animator</p>
       </div>
