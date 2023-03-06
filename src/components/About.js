@@ -1,8 +1,6 @@
 import React from 'react'
 import redt from '../images/about.jpg'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 function About() {
   return (
     <div>
