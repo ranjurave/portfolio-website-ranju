@@ -1,5 +1,6 @@
 import React from 'react'
 import './Menu.css';
+import '../App.css';
 function Menu() {
   return (
     <div className='NavMenu'>

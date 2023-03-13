@@ -1,3 +1,8 @@
+:root{
+    --green: #86C232;
+    --greenDark: #61892F;
+    --mainFont: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .FullPage{
     display: flex;
     flex-direction: column;

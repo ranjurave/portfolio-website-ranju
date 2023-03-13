@@ -1,8 +1,22 @@
 .About{
     background-color: #474B4F;
+    padding: 5% 20% 5% 20%;
     display: flex;
+    justify-content: space-between;
 }
 .Socials a
 {
     color: #86C232;
+}
+.hello{
+    font-size: 50px;
+    font-family: 'Style Script', cursive;
+}
+.name{
+    font-size: 70px;
+    font-family: 'Tilt Prism', cursive;
+}
+.developer{
+    font-size: 20px;
+    font-family: var(--mainFont);
 }

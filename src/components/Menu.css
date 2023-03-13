@@ -1,3 +1,4 @@
+
 .NavMenu
 {
     padding: 10px 20px 10px 20px;
@@ -11,7 +12,7 @@
 {
     font-weight: 800;
     font-family: "Avenir Next", "Avenir", sans-serif;
-    color: #86C232;
+    color: var(--green);
 }
 #Menu
 {
@@ -36,9 +37,9 @@ ul
     display: flex;
     text-align:center;
     cursor: pointer;
-    color: #86C232;
+    color: var(--green);
 }
 #MenuItem:hover
 {
-  color: #61892F;
+  color:  var(--greenDark);
 }
