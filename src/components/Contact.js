@@ -1,5 +1,4 @@
 import React from 'react'
-import { forwardRef } from 'react'
 import './Contact.css'
 import '../App.css'
 function Contact (){
@@ -29,6 +28,6 @@ function Contact (){
       </form>
     </div>
   )
-};
+}
 
 export default Contact

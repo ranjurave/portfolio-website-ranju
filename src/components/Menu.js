@@ -1,9 +1,8 @@
 import React from 'react'
-import {useState} from 'react';
 import './Menu.css';
 import '../App.css';
 
-const Menu = ({ resultRef }) => {
+function Menu(){
   // const [name, setName] = useState("");
   // const handleClick = () => {
   //   resultRef.current?.scrollIntoView({behavior: 'smooth'});

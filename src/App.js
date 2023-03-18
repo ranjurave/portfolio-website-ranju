@@ -1,5 +1,4 @@
 import React from 'react';
-import { useRef } from "react";
 import './App.css';
 import Menu from './components/Menu'; 
 import Banner from './components/Banner';
@@ -10,7 +9,6 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 
 function App() {
-  const resultRef = useRef(null);
   return (
     <div className='FullPage'>
       <Menu/>
