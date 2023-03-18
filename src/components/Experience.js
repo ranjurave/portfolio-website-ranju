@@ -3,9 +3,9 @@ import './Experience.css';
 import '../App.css';
 function Experience() {
   return (
-    <div className='experience'>
-      <h1 className='section-name'>Experience</h1>
-      <div className='experiences'>
+    <div className="experience">
+      <h1 className="section-name">Experience</h1>
+      <div className="experiences">
         <div className="content">
           <h3>Yoobee College</h3>
           <p>Lecturer</p>

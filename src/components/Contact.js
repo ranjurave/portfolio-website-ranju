@@ -6,7 +6,7 @@ const Contact = forwardRef((props, ref) => {
   return (
     <div ref={ref} className='Contact' >
       <h2 className='section-name'>Contact Me</h2>
-      <form class="contact-form" action="#" method="post">
+      <form className="contact-form" action="#" method="post">
         <div className='name-email-subject'>
           <div className='label-text'>
             <label>Name</label>
