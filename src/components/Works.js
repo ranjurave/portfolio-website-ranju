@@ -1,9 +1,9 @@
-import React, {forwardRef } from 'react'
+import React from 'react'
 import './Works.css'
 import '../App.css'
-const Works = forwardRef((props, ref) => {
+function Works(){
   return (
-    <div ref={ref} className='Works'>
+    <div className='Works'>
       <h1 className='section-name'>Works</h1>
       <div className="grid-container">
         {/* <div className="grid-item">
@@ -44,6 +44,6 @@ const Works = forwardRef((props, ref) => {
       </div>
     </div>
   )
-});
+};
 
 export default Works;

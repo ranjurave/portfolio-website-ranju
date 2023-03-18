@@ -2,9 +2,9 @@ import React from 'react'
 import { forwardRef } from 'react'
 import './Contact.css'
 import '../App.css'
-const Contact = forwardRef((props, ref) => {
+function Contact (){
   return (
-    <div ref={ref} className='Contact' >
+    <div className='Contact' >
       <h2 className='section-name'>Contact Me</h2>
       <form className="contact-form" action="#" method="post">
         <div className='name-email-subject'>
@@ -29,6 +29,6 @@ const Contact = forwardRef((props, ref) => {
       </form>
     </div>
   )
-});
+};
 
 export default Contact

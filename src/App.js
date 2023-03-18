@@ -13,13 +13,13 @@ function App() {
   const resultRef = useRef(null);
   return (
     <div className='FullPage'>
-      <Menu resultRef={resultRef}/>
+      <Menu/>
       <Banner></Banner>
       <About></About>
       <Experience></Experience>
-      <Works ref={resultRef}/>
+      <Works/>
       <Education></Education> 
-      <Contact ref={resultRef}></Contact>
+      <Contact></Contact>
     </div>
   );
 }
