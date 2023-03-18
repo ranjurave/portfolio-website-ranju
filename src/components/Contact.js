@@ -1,32 +1,30 @@
-import React, { useId } from 'react'
+import React from 'react'
 import './Contact.css'
-
+import '../App.css'
 function Contact() {
-  const subject = useId();
   return (
     <div className='Contact'>
-      <h1>Contact</h1>
-      <form>
-        <label htmlFor="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
-        <label htmlFor="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
-
-        <label htmlFor="country">Country</label>
-         <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-
-        <label htmlFor="subject">Subject</label>
-        <textarea
-        id={subject}
-        name="subject "
-
-      />
-
-        <input type="submit" value="Submit"/> 
+      <h2 className='section-name'>Contact Me</h2>
+      <form class="contact-form" action="#" method="post">
+        <div className='name-email-subject'>
+          <div className='label-text'>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder='Name'></input>
+          </div>
+          <div className='label-text'>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder='Email'></input>
+          </div>
+          <div className='label-text'>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required placeholder='Subject'></input>
+          </div>
+        </div>
+        <div className='message'>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder='message'></textarea>
+        </div>
+        <button type="submit">Send</button>
       </form>
     </div>
   )

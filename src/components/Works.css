@@ -1,16 +1,14 @@
 .Works{
     background-color: #474B4F;
+    padding: 2% 10% 2% 10%;
+    justify-content: space-between;
 }
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #86C232;
-    padding: 2px;
 }
 .grid-item {
-    background-color: #6B6E70;
-    border: 1px solid #222629;
-    padding: 20px;
-    font-size: 30px;
+    padding: 2px;
+    margin: 0%;
     text-align: center;
 }

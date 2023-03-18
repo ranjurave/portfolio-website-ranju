@@ -1,9 +1,19 @@
 :root{
     --green: #86C232;
     --greenDark: #61892F;
+    --grey1:  #6B6E70;
+    --grey2:  #474B4F;
+    --grey3:  #222629;
     --mainFont: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .FullPage{
     display: flex;
     flex-direction: column;
+}
+.section-name{
+    width:100%;
+    text-align: center;
+    color: var(--green);
+    margin: 0%;
+    padding: 0%;
 }

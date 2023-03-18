@@ -1,7 +1,9 @@
 import React from 'react'
+import {useEffect, useRef, useState} from 'react';
 import './Menu.css';
 import '../App.css';
 function Menu() {
+  const ref = useRef(null);
   return (
     <div className='NavMenu'>
       <div id='MenuInitials'>RR</div>
