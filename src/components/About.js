@@ -11,18 +11,14 @@ function About() {
           <p className='hello'>hello I am</p>
           <p className='name'>Ranju Raveendran</p>
           <p className='developer'>Web and Game Developer</p>
-          <button className='downloadbutton'>Download my CV</button>
+          <button className='downloadbutton'>Download CV</button>
         </div>
-        <div className='Socials'>
-          <a href="https://www.linkedin.com/in/ranjurave/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://github.com/ranjurave" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.youtube.com/channel/UC3ORUfnTnu7bq_WGKcOTCJQ" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
-          <a href="https://www.flickr.com/photos/97303816@N08/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-flickr"></i></a>
-          <a href="https://ranjurave.itch.io/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-itch-io"></i></a>
-          {/* <a><FontAwesomeIcon icon="fa-brands fa-linkedin"/></a>
-          <a><FontAwesomeIcon icon="fa-brands fa-github"/></a>
-          <a><FontAwesomeIcon icon="fa-brands fa-youtube"/></a>
-          <a><FontAwesomeIcon icon="fa-brands fa-flickr" /></a> */}
+        <div className='socials'>
+          <a className='socialslink' href="https://www.linkedin.com/in/ranjurave/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+          <a className='socialslink' href="https://github.com/ranjurave" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+          <a className='socialslink' href="https://www.youtube.com/channel/UC3ORUfnTnu7bq_WGKcOTCJQ" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+          <a className='socialslink' href="https://www.flickr.com/photos/97303816@N08/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-flickr"></i></a>
+          <a className='socialslink' href="https://ranjurave.itch.io/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-itch-io"></i></a>
         </div>
       </div>
       <img src={redt} alt="about" />
