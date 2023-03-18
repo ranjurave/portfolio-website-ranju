@@ -6,7 +6,7 @@ const Works = forwardRef((props, ref) => {
     <div ref={ref} className='Works'>
       <h1 className='section-name'>Works</h1>
       <div className="grid-container">
-        <div className="grid-item">
+        {/* <div className="grid-item">
           <iframe width="400" height="280" src="https://www.youtube.com/embed/qf_tlLK8_YU" title="Unreal Stealth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
           </iframe>
         </div>
@@ -40,7 +40,7 @@ const Works = forwardRef((props, ref) => {
         <div className="grid-item">
         <iframe width="400" height="280" src="https://www.youtube.com/embed/qf_tlLK8_YU" title="Unreal Stealth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
           </iframe>
-          </div> 
+          </div>  */}
       </div>
     </div>
   )
