@@ -18,8 +18,8 @@ function App() {
       <About></About>
       <Experience></Experience>
       <Works ref={resultRef}/>
-      <Education></Education>
-      <Contact></Contact>
+      <Education></Education> 
+      <Contact ref={resultRef}></Contact>
     </div>
   );
 }
