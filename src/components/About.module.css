@@ -6,6 +6,10 @@
     justify-content: space-between;
     align-items: center;
 }
+.texts{
+    width: 100%;
+    padding: 0em 5em 0em 5em;
+}
 .about img{
     width: 20em;
     object-fit:scale-down;
@@ -50,10 +54,20 @@
 @media only screen and (max-width: 800px) {
     .about{
         background-color: #474B4F;
-        padding: 5% 20% 5% 20%;
+        padding: 5% 5% 5% 5%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+    .texts{
+        width: 100%;
+        padding: 0em 5em 0em 5em;
+    }
+    .name{
+        font-size: 3em;
+    }
+    .developer{
+        font-size: 1em;
     }
     .about img{
         margin-top: 1vh;
