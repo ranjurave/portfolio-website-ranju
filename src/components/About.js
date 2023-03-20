@@ -1,7 +1,6 @@
 import React from 'react';
 import redt from '../images/about.jpg';
 import styles from './About.module.css';
-import app_styles from '../App.module.css';
 
 function About() {
   return (

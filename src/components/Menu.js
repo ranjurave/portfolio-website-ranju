@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Menu.module.css';
-import app_styles from '../App.module.css';
 
 function Menu(){
   // const [name, setName] = useState("");
