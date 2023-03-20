@@ -6,11 +6,11 @@
     --grey3:  #222629;
     --mainFont: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.FullPage{
+.full_page{
     display: flex;
     flex-direction: column;
 }
-.section-name{
+.section_name{
     width:100%;
     text-align: center;
     color: var(--green);
