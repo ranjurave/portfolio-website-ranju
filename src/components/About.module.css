@@ -1,12 +1,18 @@
-.About{
+.about{
     background-color: #474B4F;
-    padding: 5% 20% 5% 20%;
+    padding: 2em 10vw 2em 10vw;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+.about img{
+    width: 20em;
+    object-fit:scale-down;
 }
 .socials{
     display: flex;
-    gap: 5px;
+    gap: 0.5em;
 }
 .socials a{
     font-size: 25px;
@@ -16,17 +22,17 @@
     color: #86C232;
 }
 .hello{
-    font-size: 50px;
+    font-size: 2em;
     font-family: 'Style Script', cursive;
 }
 .name{
-    font-size: 70px;
+    font-size: 4em;
     padding-bottom: 10px;
     font-family: 'Tilt Prism', cursive;
     margin: 0;
 }
 .developer{
-    font-size: 30px;
+    font-size: 2em;
     font-family: var(--mainFont);
     padding-top: 0%;
     margin-top: 0%;
@@ -41,3 +47,15 @@
     background-color: var(--grey3);
 }
 
+@media only screen and (max-width: 800px) {
+    .about{
+        background-color: #474B4F;
+        padding: 5% 20% 5% 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about img{
+        margin-top: 1vh;
+    }
+}

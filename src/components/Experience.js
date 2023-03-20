@@ -1,24 +1,28 @@
 import React from 'react';
-import './Experience.css';
-import '../App.css';
+import styles from './Experience.module.css';
+import app_styles from '../App.module.css';
+
 function Experience() {
   return (
-    <div className="experience">
-      <h1 className="section-name">Experience</h1>
-      <div className="experiences">
-        <div className="content">
+    <div className={styles.experience}>
+      <h1 className={app_styles.section_name}>Experience</h1>
+      <div className={styles.experiences}>
+        <div className={styles.content}>
           <h3>Yoobee College</h3>
           <p>Lecturer</p>
         </div>
-        <div className="content">
+        <div className={styles.divider}></div>
+        <div className={styles.content}>
           <h3>Native Software</h3>
           <p>Developed WebAPI</p>
         </div>
-        <div className="content">
+        <div className={styles.divider}></div>
+        <div className={styles.content}>
           <h3>Huhu Studios</h3>
           <p>Senior Animator</p>
         </div>
-        <div className="content">
+        <div className={styles.divider}></div>
+        <div className={styles.content}>
           <h3>Toonz Animations</h3>
           <p>Character Animator</p>
         </div>
