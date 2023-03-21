@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRef } from 'react';
 import Menu from './components/Menu'; 
 import Banner from './components/Banner';
 import About from './components/About';
@@ -9,13 +10,14 @@ import Contact from './components/Contact';
 import styles from './App.module.css';
 
 function App() {
+  const resultRef = useRef(null);
   return (
     <div className={styles.full_page}>
-      <Menu/>
+      <Menu resultRef={resultRef} />
       <Banner></Banner>
       <About></About>
       <Experience></Experience>
-      <Works/>
+      <Works ref={resultRef} />
       <Education></Education> 
       <Contact></Contact>
     </div>
