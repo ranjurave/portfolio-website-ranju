@@ -1,7 +1,7 @@
 
 .nav_menu
 {
-    padding: 1em 5em 1em 5em;
+    padding: 1em 2em 1em 2em;
     display: flex;
     background-color: #222629;
     align-items: center;
@@ -48,7 +48,10 @@ ul
 }
 @media only screen and (max-width: 800px) {
     .mobile_menu{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }
     .menu_item{
         display: none;
