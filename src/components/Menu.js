@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Menu.module.css';
+import HamburgerMenu from './HamburgerMenu';
 
 function Menu(){
   // const [name, setName] = useState("");
@@ -11,17 +12,20 @@ function Menu(){
   // };
   return (
     <div className={styles.NavMenu}>
-      <div id={styles.MenuInitials}>RR</div>
-        <ul id={styles.Menu}>
-          <div id={styles.MenuItem}><li>Home</li></div>
-          <div id={styles.MenuItem}><li>About</li></div>
-          <div id={styles.MenuItem}><li>Experience</li></div>
-          {/* <div id='MenuItem'><li onClick={handleClick}>Works</li></div> */}
-          <div id={styles.MenuItem}><li>Works</li></div>
-          <div id={styles.MenuItem}><li>Education</li></div>
-          {/* <div id='MenuItem'><li onClick={handleContactClick}>Contact</li></div> */}
-          <div id={styles.MenuItem}><li>Contact</li></div>
-        </ul>
+      <div id={styles.MenuInitials}>
+        RR
+      </div>
+      <ul id={styles.Menu}>
+        <div id={styles.MenuItem}><li>Home</li></div>
+        <div id={styles.MenuItem}><li>About</li></div>
+        <div id={styles.MenuItem}><li>Experience</li></div>
+        {/* <div id='MenuItem'><li onClick={handleClick}>Works</li></div> */}
+        <div id={styles.MenuItem}><li>Works</li></div>
+        <div id={styles.MenuItem}><li>Education</li></div>
+        {/* <div id='MenuItem'><li onClick={handleContactClick}>Contact</li></div> */}
+        <div id={styles.MenuItem}><li>Contact</li></div>
+      </ul>
+      <HamburgerMenu></HamburgerMenu>
     </div>
   )
 }
