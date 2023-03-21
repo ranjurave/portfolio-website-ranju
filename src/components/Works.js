@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { forwardRef } from "react";
 import styles from './Works.module.css'
 import app_styles from'../App.module.css'
-function Works(){
+const Works = forwardRef((props, ref) =>{
   return (
-    <div className={styles.Works}>
+    <div ref={ref} className={styles.Works}>
       <h1 className={app_styles.section_name}>Works</h1>
       <div className={styles.grid_container}>
         <div className={styles.grid_item}>
@@ -44,6 +45,6 @@ function Works(){
       </div>
     </div>
   )
-}
+});
 
 export default Works;
