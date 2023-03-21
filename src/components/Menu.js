@@ -11,21 +11,23 @@ function Menu(){
   //   resultRef.current?.scrollIntoView({behavior: 'smooth'});
   // };
   return (
-    <div className={styles.NavMenu}>
-      <div id={styles.MenuInitials}>
+    <div className={styles.nav_menu}>
+      <div className={styles.menu_initials}>
         RR
       </div>
-      <ul id={styles.Menu}>
-        <div id={styles.MenuItem}><li>Home</li></div>
-        <div id={styles.MenuItem}><li>About</li></div>
-        <div id={styles.MenuItem}><li>Experience</li></div>
+      <ul className={styles.menu_full}>
+        <div className={styles.menu_item}><li>Home</li></div>
+        <div className={styles.menu_item}><li>About</li></div>
+        <div className={styles.menu_item}><li>Experience</li></div>
         {/* <div id='MenuItem'><li onClick={handleClick}>Works</li></div> */}
-        <div id={styles.MenuItem}><li>Works</li></div>
-        <div id={styles.MenuItem}><li>Education</li></div>
+        <div className={styles.menu_item}><li>Works</li></div>
+        <div className={styles.menu_item}><li>Education</li></div>
         {/* <div id='MenuItem'><li onClick={handleContactClick}>Contact</li></div> */}
-        <div id={styles.MenuItem}><li>Contact</li></div>
+        <div className={styles.menu_item}><li>Contact</li></div>
+        <div className={styles.mobile_menu}>
+          <HamburgerMenu></HamburgerMenu>
+        </div>
       </ul>
-      <HamburgerMenu></HamburgerMenu>
     </div>
   )
 }
