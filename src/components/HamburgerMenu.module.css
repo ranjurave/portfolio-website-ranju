@@ -1,12 +1,5 @@
 .hamburger_menu {
-   position: absolute;
-  /*display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  height: 60px;
-  padding-right: 20px;
-  cursor: pointer;*/
+  position: absolute;
 } 
 
 .hamburger {
@@ -23,25 +16,25 @@
 .bottom_bar {
   width: 100%;
   height: 3px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--green);
   transition: transform 0.2s ease;
 }
 
 .top_bar_closed {
   width: 100%;
   height: 3px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--green);
   transform: rotate(45deg) translate(8px, 8px);
 }
 
 .middle_bar_closed {
-  opacity: 0;
+  opacity: 0;  
 }
 
 .bottom_bar_closed {
   width: 100%;
   height: 3px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--green);
   transform: rotate(-45deg) translate(5px, -6px);
 }
 
