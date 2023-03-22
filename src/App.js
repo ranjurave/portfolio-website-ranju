@@ -1,4 +1,5 @@
 import React from 'react';
+import { Canvas } from '@react-three/fiber';
 import { useRef } from 'react';
 import Menu from './components/Menu'; 
 import Banner from './components/Banner';
@@ -14,7 +15,11 @@ function App() {
   return (
     <div className={styles.full_page}>
       <Menu resultRef={resultRef} />
-      <Banner></Banner>
+      <div className={styles.Banner}>
+        <Canvas>
+          <Banner/>
+        </Canvas>
+      </div>
       <About></About>
       <Experience></Experience>
       <Works ref={resultRef} />
