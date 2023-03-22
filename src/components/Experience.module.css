@@ -2,18 +2,24 @@
     background-color: #6B6E70;
     padding: 2em 10vw 2em 10vw;
     justify-content: space-between;
+    font-family: var(--mainFont);
 }
 .experiences{
     padding-top: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.2em;
 }
 .divider {
-    height: 6em;
+    height: 4em;
     width: 0.08em;
     background-color: var(--green);
     align-items: center;
+}
+.content{
+    padding: 1.2em;
+    text-align: center;
 }
 @media only screen and (max-width: 800px) {  
     .experiences{
