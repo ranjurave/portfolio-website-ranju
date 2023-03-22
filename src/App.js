@@ -8,6 +8,7 @@ import Experience from './components/Experience';
 import Works from './components/Works';
 import Education from './components/Education';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import styles from './App.module.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Works ref={resultRef} />
       <Education></Education> 
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }

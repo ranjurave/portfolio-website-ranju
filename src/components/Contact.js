@@ -21,11 +21,6 @@ function Contact (){
   return (
     <div className={styles.Contact} >
       <h1 className={app_styles.section_name}>Contact Me</h1>
-      <div className={styles.details_and_form}>
-`      <div className={styles.details}>
-        <p>Phone : 02102467215</p>
-        <p>Email : ranjurave@gmail.com</p>
-      </div>
       <form ref={form} className={styles.contact_form} onSubmit={sendEmail}>
         <div className={styles.name_email}>
           <div className={styles.label_text}>
@@ -42,9 +37,8 @@ function Contact (){
         </div>
         <textarea name="message" required placeholder='Message'/>
         <button type="submit" value="Send">Send</button>
-      </form>`
+      </form>
       </div>
-    </div>
   )
 }
 
