@@ -17,7 +17,9 @@ function App() {
   const workref = useRef(<Works/>);
   const eduref = useRef(<Education/>);
   const contactref = useRef(<Contact/>);
-  const [menu, setMenu] = React.useState("");
+
+  const [menu, setMenu] = useState("home");
+  console.log(menu);
   const selectedMenuItem = (menu) => {
     setMenu(menu);
     switch(menu){

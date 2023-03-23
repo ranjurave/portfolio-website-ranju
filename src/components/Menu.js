@@ -1,5 +1,4 @@
 import React from 'react';
-// import { useState } from "react";
 import styles from './Menu.module.css';
 import HamburgerMenu from './HamburgerMenu';
 
