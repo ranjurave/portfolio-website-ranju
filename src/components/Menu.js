@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Menu.module.css';
-import HamburgerMenu from './HamburgerMenu';
+//import HamburgerMenu from './HamburgerMenu';
 
 const Menu = ({selectedMenuItem}) =>{
   return (
@@ -15,9 +15,10 @@ const Menu = ({selectedMenuItem}) =>{
         <div className={styles.menu_item}><li onClick={() => selectedMenuItem("works")}>Works</li></div>
         <div className={styles.menu_item}><li onClick={() => selectedMenuItem("education")}>Education</li></div>
         <div className={styles.menu_item}><li onClick={() => selectedMenuItem("contact")}>Contact</li></div>
-        <div className={styles.mobile_menu}>
-          <HamburgerMenu></HamburgerMenu>
-        </div>
+        {/* TODO hamburger menu */}
+        {/* <div className={styles.mobile_menu}>
+          <HamburgerMenu selectedMenuItem={selectedMenuItem}></HamburgerMenu>
+        </div> */}
       </ul>
     </div>
   )
