@@ -1,6 +1,5 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 import { Canvas } from '@react-three/fiber';
-import { useRef } from 'react';
 import Menu from './components/Menu'; 
 import Banner from './components/Banner';
 import About from './components/About';
@@ -12,21 +11,57 @@ import Footer from './components/Footer';
 import styles from './App.module.css';
 
 function App() {
-  const resultRef = useRef(null);
+  const homeref = useRef(<Banner/>);
+  const aboutref = useRef(<About/>);  
+  const expref = useRef(<Experience/>);
+  const workref = useRef(<Works/>);
+  const eduref = useRef(<Education/>);
+  const contactref = useRef(<Contact/>);
+  const [menu, setMenu] = React.useState("");
+  const selectedMenuItem = (menu) => {
+    setMenu(menu);
+    switch(menu){
+      case"home":{
+        homeref.current.scrollIntoView({ behavior: 'smooth' , block: "center"});
+        return;
+      }
+      case"about":{
+        aboutref.current.scrollIntoView({ behavior: 'smooth' , block: "center"});
+        return;
+      }
+      case"experience":{
+        expref.current.scrollIntoView({ behavior: 'smooth' , block: "center"});
+        return;
+      }
+      case"works":{
+        workref.current.scrollIntoView({ behavior: 'smooth' , block: "center"});
+        return;
+      }
+      case"education":{
+        eduref.current.scrollIntoView({ behavior: 'smooth' , block: "center"});
+        return;
+      }
+      case"contact":{
+        contactref.current.scrollIntoView({ behavior: 'smooth' , block: "center"});
+        return;
+      }
+      default:
+        break;
+      }
+  };
+  
   return (
     <div className={styles.full_page}>
-      <Menu resultRef={resultRef} />
-      <div className={styles.Banner}>
-        <Canvas>
-          <Banner/>
-        </Canvas>
+      <Menu selectedMenuItem={selectedMenuItem}/>
+      <div ref={homeref} className={styles.Banner}>
+        <Canvas><Banner/></Canvas>
       </div>
-      <About></About>
-      <Experience></Experience>
-      <Works ref={resultRef} />
-      <Education></Education> 
-      <Contact></Contact>
-      <Footer></Footer>
+      <div ref={aboutref}><About/></div>
+      <div ref={expref}><Experience/></div>
+      <div ref={workref}><Works/></div>
+      <div ref={eduref}><Education/> </div>
+      <div ref={contactref}><Contact/></div>
+      <Footer/>
     </div>
   );
 }

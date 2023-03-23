@@ -1,5 +1,5 @@
-// import React from 'react'
-//import styles from './Banner.module.css'
+import React from 'react'
+// import styles from './Banner.module.css'
 import { OrbitControls, PerspectiveCamera, Environment } from "@react-three/drei";
 import { Suspense } from "react";
 import { FloatingIsland } from "./FloatingIsland";
