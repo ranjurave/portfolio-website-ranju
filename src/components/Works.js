@@ -19,11 +19,7 @@ const Works = forwardRef((props, ref) =>{
         <iframe src="https://www.youtube.com/embed/mUso8G_TEcc" title="PARIDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe>
         </div>  
-        <div className={styles.grid_item}>          
-          <iframe src="https://www.youtube.com/embed/qf_tlLK8_YU" title="Unreal Stealth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-          </iframe>
-        </div>
-        <div className={styles.grid_item}>         
+        {/* <div className={styles.grid_item}>         
           <iframe src="https://www.youtube.com/embed/qf_tlLK8_YU" title="Unreal Stealth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
           </iframe>
         </div>
@@ -41,7 +37,7 @@ const Works = forwardRef((props, ref) =>{
         <div className={styles.grid_item}>
           <iframe src="https://www.youtube.com/embed/qf_tlLK8_YU" title="Unreal Stealth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
           </iframe>
-        </div>
+        </div> */}
       </div>
     </div>
   )
