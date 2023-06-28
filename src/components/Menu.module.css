@@ -45,14 +45,28 @@ ul
 }
 .mobile_menu{
     display: none;
+    /* width: 100%; */
+    padding: 0%;
+    margin: 0%;
 }
 @media only screen and (max-width: 800px) {
-    /* .mobile_menu{
-        display: block;
+    .nav_menu {
+        padding: 1em 1em 1em 1em;
+    }
+    .menu_full{
+        display :flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content:flex-end;
+    }
+    .mobile_menu{
+        display: flex;
+        /* display: inline; */
+        color: #222629;
     }
     .menu_item{
         display: none;
-    } */
+    } 
     .menu_full{
         flex-direction: column;
         height: 100%;
