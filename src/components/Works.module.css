@@ -36,24 +36,25 @@ img{
     width: 120px;
     border-style: none;
     border-radius: 5px;
-    color: var(--green);
     font-weight: 300;
-    background-color: var(--grey3);
     cursor: pointer;
     margin: 10px;
-}
-.worksbutton:hover, .worksbuttonOn:hover{
-    font-weight:bold;
+    color: var(--green);
+    background-color: var(--grey3);
 }
 .worksbuttonOn{
     height: 40px;
     width: 120px;
     border-style: none;
     border-radius: 5px;
-    color: var(--grey3);
     font-weight: 300;
-    background-color: var(--green);
     cursor: pointer;
+    margin: 10px;
+    color: var(--grey3);
+    background-color: var(--green);
+}
+.worksbutton:hover, .worksbuttonOn:hover{
+    font-weight:bold;
 }
 @media only screen and (max-width: 800px) {
     .Works{
@@ -63,5 +64,6 @@ img{
     .grid_container {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
