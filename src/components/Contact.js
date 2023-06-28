@@ -24,16 +24,13 @@ function Contact (){
       <form ref={form} className={styles.contact_form} onSubmit={sendEmail}>
         <div className={styles.name_email}>
           <div className={styles.label_text}>
-            <label>Name</label>
             <input type="text" name="from_name" required placeholder='Name'/>
           </div>
           <div className={styles.label_text}>
-            <label>Email</label>
             <input type="email" name="user_email" required placeholder='Email'/>
           </div>
         </div>
         <div className={styles.label_text}>
-          <label>Message</label>
         </div>
         <textarea name="message" required placeholder='Message'/>
         <button type="submit" value="Send">Send</button>

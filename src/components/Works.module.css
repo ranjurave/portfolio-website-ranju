@@ -28,7 +28,7 @@ img{
 .worksallbuttons{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .worksbutton{
@@ -40,6 +40,10 @@ img{
     font-weight: 300;
     background-color: var(--grey3);
     cursor: pointer;
+    margin: 10px;
+}
+.worksbutton:hover, .worksbuttonOn:hover{
+    font-weight:bold;
 }
 .worksbuttonOn{
     height: 40px;
