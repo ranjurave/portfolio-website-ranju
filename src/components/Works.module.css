@@ -11,13 +11,49 @@
     padding: 1em;
     margin: 0%;
     text-align: center;
-}
+    width: 280px;
+} 
 .grid_item iframe{
     width: 100%;
-    height: 100%;
 }
 .button{
     background: none;
+}
+img{
+    width: 100%;
+}
+.description{
+    font-weight: 200px;
+}
+.worksallbuttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.worksbutton{
+    height: 40px;
+    width: 120px;
+    border-style: none;
+    border-radius: 5px;
+    color: var(--green);
+    font-weight: 300;
+    background-color: var(--grey3);
+    cursor: pointer;
+    margin: 10px;
+}
+.worksbutton:hover, .worksbuttonOn:hover{
+    font-weight:bold;
+}
+.worksbuttonOn{
+    height: 40px;
+    width: 120px;
+    border-style: none;
+    border-radius: 5px;
+    color: var(--grey3);
+    font-weight: 300;
+    background-color: var(--green);
+    cursor: pointer;
 }
 @media only screen and (max-width: 800px) {
     .Works{
