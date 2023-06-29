@@ -6,7 +6,7 @@ const Menu = ({selectedMenuItem}) =>{
   return (
     <div className={styles.nav_menu}>
       <div className={styles.menu_initials}>
-        <a href='#'>RR</a>
+        <a href="/#">RR</a>
       </div>
       <ul className={styles.menu_full}>
         <div className={styles.menu_item}><li onClick={() => selectedMenuItem("about")}>Home</li></div>
