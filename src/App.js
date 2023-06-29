@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import styles from './App.module.css';
 
 function App() {
-  const homeref = useRef(<Banner/>);
+  const homeref = useRef(<About/>);
   const aboutref = useRef(<About/>);  
   const expref = useRef(<Experience/>);
   const workref = useRef(<Works/>);
@@ -18,7 +18,7 @@ function App() {
   const contactref = useRef(<Contact/>);
 
   const [menu, setMenu] = useState("home");
-  console.log(menu);
+  //console.log(menu);
   const selectedMenuItem = (menu) => {
     setMenu(menu);
     switch(menu){
@@ -57,6 +57,7 @@ function App() {
       {/* <div ref={homeref} className={styles.Banner}>
         <Canvas><Banner/></Canvas>
       </div> */}
+      <div ref={homeref}><About/></div>
       <div ref={aboutref}><About/></div>
       <div ref={expref}><Experience/></div>
       <div ref={workref}><Works/></div>

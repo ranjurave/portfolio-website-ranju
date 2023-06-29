@@ -5,7 +5,6 @@ import styles from './About.module.css';
 function About() {
   return (
     <div className={styles.about}>
-
       <div>
         <div>
           <p className= {styles.hello}>hello I am</p>
