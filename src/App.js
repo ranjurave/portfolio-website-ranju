@@ -57,7 +57,6 @@ function App() {
       {/* <div ref={homeref} className={styles.Banner}>
         <Canvas><Banner/></Canvas>
       </div> */}
-      <div ref={homeref}><About/></div>
       <div ref={aboutref}><About/></div>
       <div ref={expref}><Experience/></div>
       <div ref={workref}><Works/></div>
