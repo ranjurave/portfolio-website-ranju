@@ -17,8 +17,8 @@ function App() {
   const eduref = useRef(<Education/>);
   const contactref = useRef(<Contact/>);
 
-  //const [menu, setMenu] = useState("home");
-  //console.log(menu);
+  const [menu, setMenu] = useState("home");
+  console.log(menu);
   const selectedMenuItem = (menu) => {
     setMenu(menu);
     switch(menu){
