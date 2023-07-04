@@ -7,6 +7,7 @@ import Works from './components/Works';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import styles from './App.module.css';
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
       <div ref={eduref}><Education/> </div>
       <div ref={contactref}><Contact/></div>
       <Footer/>
+      <ScrollToTop></ScrollToTop>
     </div>
   );
 }
