@@ -1,0 +1,28 @@
+.scrolltotop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer; 
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: var(--grey3);
+    border-radius: 5px;
+}
+.scrolltotop:hover{
+    background-color: var(--green);
+}
+.chevronup {
+	border-style: solid;
+	border-width: 0.5em 0.5em 0 0;
+	content: '';
+	transform: rotate(-45deg);
+	height: 1em;
+	width: 1em;
+    color: var(--greenDark)
+}
+
+  

@@ -1,5 +1,10 @@
-/* .hamburger_menu {
-  position: absolute;
+.hamburger_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0%;
+  margin: 0%;
+  margin: 0%;  
 } 
 
 .hamburger {
@@ -8,6 +13,7 @@
   justify-content: space-between;
   width: 30px;
   height: 22px;
+  padding: 2px;
   cursor: pointer;
 }
 
@@ -17,14 +23,15 @@
   width: 100%;
   height: 3px;
   background-color: var(--green);
-  transition: transform 0.2s ease;
+  transition: transform 0.8s ease;
 }
 
 .top_bar_closed {
   width: 100%;
   height: 3px;
   background-color: var(--green);
-  transform: rotate(45deg) translate(7px, 8px);
+  transform: rotate(228deg) translate(-9px, -7px);
+  transition: transform 0.8s ease;
 }
 
 .middle_bar_closed {
@@ -35,23 +42,30 @@
   width: 100%;
   height: 3px;
   background-color: var(--green);
-  transform: rotate(-45deg) translate(5px, -6px);
+  transform: rotate(-225deg) translate(-5px, 5px);
+  transition: transform 0.8s ease;
 }
 
 .mobile_menu {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
   top: 10px;
   right: 150px;
-  width: 230px;
-  height: 100%;
+  width: 150px;
   padding: 20px 0 20px 0;
   font-size: 25px;
   background-color: var(--grey3);
   z-index: 3;
 }
+ul{
+  margin: 0%;
+  padding: 0%;
+}
 .mobile_menu li{
-  padding: 5px;
+  padding: 2px;
   cursor: pointer;
+  color: var(--green);
 }
 .mobile_menu li:hover{
   color: var(--greenDark);
@@ -59,6 +73,3 @@
 .mobile_menu_closed {
   display: none;
 }
-li{
-  color: var(--green);
-} */

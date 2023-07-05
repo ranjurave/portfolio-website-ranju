@@ -1,16 +1,17 @@
 import React, {useRef, useState} from 'react';
 import Menu from './components/Menu'; 
-import Banner from './components/Banner';
+//import Banner from './components/Banner';
 import About from './components/About';
 import Experience from './components/Experience';
 import Works from './components/Works';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import styles from './App.module.css';
 
 function App() {
-  const homeref = useRef(<Banner/>);
+  const homeref = useRef(<About/>);
   const aboutref = useRef(<About/>);  
   const expref = useRef(<Experience/>);
   const workref = useRef(<Works/>);
@@ -63,6 +64,7 @@ function App() {
       <div ref={eduref}><Education/> </div>
       <div ref={contactref}><Contact/></div>
       <Footer/>
+      <ScrollToTop></ScrollToTop>
     </div>
   );
 }
