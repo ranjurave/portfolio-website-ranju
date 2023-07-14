@@ -13,6 +13,11 @@ function Experience() {
         </div>
         <div className={styles.divider}></div>
         <div className={styles.content}>
+          <h3>Niramsoft</h3>
+          <p>Software Developer</p>
+        </div>
+        <div className={styles.divider}></div>
+        <div className={styles.content}>
           <h3>Native Software</h3>
           <p>Software Developed</p>
         </div>
