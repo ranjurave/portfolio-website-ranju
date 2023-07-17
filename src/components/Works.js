@@ -7,6 +7,7 @@ const Works = forwardRef((props, ref) =>{
   const [showAnimation, setShowAnimation] = useState(true);
   const [showWebdev, setShowWebdev] = useState(true);
   const [showGame, setShowGame] = useState(true);
+  
   const toggleAnimation = () => {
     setShowAnimation(true);
     setShowGame(false);
@@ -31,10 +32,10 @@ const Works = forwardRef((props, ref) =>{
     <div ref={ref} className={styles.Works}>
       <h1 className={app_styles.section_name}>Works</h1>
       <div className={styles.worksallbuttons}>
-        <button className={showAnimation&&showGame&&showWebdev? styles.worksbuttonOn:styles.worksbutton} onClick={toggleAll}>All</button>
         <button className={!showAnimation&&!showGame&&showWebdev? styles.worksbuttonOn:styles.worksbutton} onClick={toggleWebdev}>Web Dev</button>
         <button className={!showAnimation&&showGame&&!showWebdev? styles.worksbuttonOn:styles.worksbutton} onClick={toggleGame}>Game & AR</button>
         <button className={showAnimation&&!showGame&&!showWebdev? styles.worksbuttonOn:styles.worksbutton} onClick={toggleAnimation}>Animation</button>
+        <button className={showAnimation&&showGame&&showWebdev? styles.worksbuttonOn:styles.worksbutton} onClick={toggleAll}>All</button>
       </div>
       <div className={styles.grid_container}>
         {showGame ?

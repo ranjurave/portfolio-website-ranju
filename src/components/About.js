@@ -10,7 +10,7 @@ function About() {
           <p className= {styles.hello}>hello I am</p>
           <p className={styles.name}>Ranju Raveendran</p>
           <p className={styles.developer}>Web and Game Developer</p>
-          <p className={styles.blob}>Experience in software development and 3D animation. Proficient in Web, Game, XR Development and 3D Graphics. Completed Master of Creative Technologies, Degree in Computer Science and Advanced Software Development courses.</p>
+          <p className={styles.blob}>As a coding enthusiast and an admirer of the latest technologies, I have accumulated extensive experience over the past years, covering a diverse range of areas, including Web Development, Game Development, XR Development, and 3D Graphics. I have completed a Master of Creative Technologies, a Degree in Computer Science, and completed Advanced Software Development courses. My proficiency lies in Software Development, as well as XR and Game Development, and I possess a proven track record of quickly grasping new technologies while performing effectively even under pressure.</p>
           <a href="/files/RanjuRaveendranCV.pdf" download>
             <button className={styles.downloadbutton}>Download CV</button>
           </a>
