@@ -7,10 +7,16 @@ function About() {
     <div className={styles.about}>
       <div>
         <div>
-          <p className= {styles.hello}>hello I am</p>
+          <p className= {styles.hello}>hello I am,</p>
           <p className={styles.name}>Ranju Raveendran</p>
-          <p className={styles.developer}>Web and Game Developer</p>
-          <p className={styles.blob}>As a coding enthusiast and an admirer of the latest technologies, I have accumulated extensive experience over the past years, covering a diverse range of areas, including Web Development, Game Development, XR Development, and 3D Graphics. I have completed a Master of Creative Technologies, a Degree in Computer Science, and completed Advanced Software Development courses. My proficiency lies in Software Development, as well as XR and Game Development, and I possess a proven track record of quickly grasping new technologies while performing effectively even under pressure.</p>
+          <p className={styles.developer}>Software Developer</p>
+          <p className={styles.blob}>
+            A coding enthusiast and an admirer of the latest technologies, I have over a decade of experience working in a wide range of areas, including Web Development, Game Development, 
+            XR Development, and Computer Graphics. Currently, I am a lecturer at Yoobee College, teaching Software Engineering, as well as working on freelance software projects. 
+            I have completed a Master of Creative Technologies, a Degree in Computer Science, and an Advanced Software Development course.
+            <br></br><br></br>
+            Proficient in Full Stack Development and Game & App Development, and skilled in C++, C#, Python, .NET, React, HTML, CSS, JavaScript, SQL, and many more, 
+            with a proven track record of picking up new technologies quickly and functioning well even under pressure.</p>
           <a href="/files/RanjuRaveendranCV.pdf" download>
             <button className={styles.downloadbutton}>Download CV</button>
           </a>
