@@ -3,10 +3,12 @@ import { forwardRef, useState } from "react";
 import styles from './Works.module.css'
 import dashboard from '../images/MainWindow.jpeg';
 import app_styles from'../App.module.css'
+
 const Works = forwardRef((props, ref) =>{
   const [showAnimation, setShowAnimation] = useState(true);
   const [showWebdev, setShowWebdev] = useState(true);
   const [showGame, setShowGame] = useState(true);
+  
   const toggleAnimation = () => {
     setShowAnimation(true);
     setShowGame(false);
@@ -31,29 +33,29 @@ const Works = forwardRef((props, ref) =>{
     <div ref={ref} className={styles.Works}>
       <h1 className={app_styles.section_name}>Works</h1>
       <div className={styles.worksallbuttons}>
-        <button className={showAnimation&&showGame&&showWebdev? styles.worksbuttonOn:styles.worksbutton} onClick={toggleAll}>All</button>
         <button className={!showAnimation&&!showGame&&showWebdev? styles.worksbuttonOn:styles.worksbutton} onClick={toggleWebdev}>Web Dev</button>
         <button className={!showAnimation&&showGame&&!showWebdev? styles.worksbuttonOn:styles.worksbutton} onClick={toggleGame}>Game & AR</button>
         <button className={showAnimation&&!showGame&&!showWebdev? styles.worksbuttonOn:styles.worksbutton} onClick={toggleAnimation}>Animation</button>
+        <button className={showAnimation&&showGame&&showWebdev? styles.worksbuttonOn:styles.worksbutton} onClick={toggleAll}>All</button>
       </div>
       <div className={styles.grid_container}>
         {showGame ?
           <div className={styles.grid_item}>
-            <iframe src="https://www.youtube.com/embed/qf_tlLK8_YU" title="Unreal Stealth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            <iframe src="https://www.youtube.com/embed/qf_tlLK8_YU" title="Unreal Stealth" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
             </iframe>
             <p className={styles.description}>Third Person Shooter game developed in Unreal Engine</p>
           </div>:<></>
         }
         {showGame ?
         <div className={styles.grid_item}>
-          <iframe src="https://www.youtube.com/embed/TCy32QcjJtM" title="EndlessDrive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+          <iframe src="https://www.youtube.com/embed/TCy32QcjJtM" title="EndlessDrive" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
           </iframe>
           <p className={styles.description}>Endless Runner game developed in Unity</p>
         </div>:<></>
         }
         {showGame ?
         <div className={styles.grid_item}>          
-          <iframe src="https://www.youtube.com/embed/mUso8G_TEcc" title="PARIDA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+          <iframe src="https://www.youtube.com/embed/mUso8G_TEcc" title="PARIDA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
           </iframe>
           <p className={styles.description}>AR applicationf or interior designing. Developed in Unity and ARFoundation</p>
         </div>  :<></>
@@ -66,19 +68,19 @@ const Works = forwardRef((props, ref) =>{
         }
         {showAnimation ?
         <div className={styles.grid_item}>          
-          <iframe src="https://player.vimeo.com/video/200655338?h=44b1baff68" title="animation" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/200655338?h=44b1baff68" title="animation" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
           <p className={styles.description}>Animation works demo</p>
         </div> :<></>
         } 
         {showAnimation ?
         <div className={styles.grid_item}>          
-          <iframe src="https://player.vimeo.com/video/241484659?h=47b237f7fd" title="Modelling" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/241484659?h=47b237f7fd" title="Modelling" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
           <p className={styles.description}>Modelling works</p>
         </div> :<></>
         } 
         {showAnimation ?
         <div className={styles.grid_item}>          
-          <iframe src="https://player.vimeo.com/video/235095959?h=96d7f0f01f" title="Rigging" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/235095959?h=96d7f0f01f" title="Rigging" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
           <p className={styles.description}>Rigging works</p>
         </div> :<></>
         }

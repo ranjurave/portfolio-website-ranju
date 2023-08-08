@@ -31,6 +31,7 @@
 }
 .name{
     font-size: 4em;
+    font-weight: 1000px;
     padding-bottom: 10px;
     font-family: 'Tilt Prism', cursive;
     margin: 0;
@@ -42,10 +43,14 @@
     margin-top: 0%;
 }
 .blob{
-    font-size: 1.3em;
+    width: 90%;
+    font-size: 1.1em;
+    font-weight: bold;
     font-family: 'Roboto Slab', serif;
     padding-top: 0%;
     margin-top: 0%;
+    text-align: justify;
+    line-height: 1.5;
 }
 .downloadbutton{
     height: 40px;
@@ -78,5 +83,8 @@
     }
     .about img{
         margin-top: 1vh;
+    }
+    .blob{
+        width: 100%;
     }
 }

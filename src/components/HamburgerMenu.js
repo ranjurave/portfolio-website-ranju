@@ -3,18 +3,27 @@ import styles from './HamburgerMenu.module.css';
 
 const HamburgerMenu = ({selectedMenuItem}) => {
   const [isOpen, setIsOpen] = useState(true);
-
+  //const [isAnimOver, setIsAnimOver] = useState(false);
+  
+  // const animOver = () => {
+  //   setIsAnimOver(true);
+  // }
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    // setTimeout(animOver, 100);
+    //setIsAnimOver(false);
+
   }
-//   const [menu, setMenu] = useState("home");
-//   console.log(menu);
-//   const selectedMenuItem = (menu) => {
-//     setMenu(menu);
-//   }
+  //console.log(isAnimOver);
+
+  
   return (
     <div className={styles.hamburger_menu} onClick={toggleMenu}>
       <div className={styles.hamburger}>
+        {/* <div className={isOpen?styles.top_bar:isAnimOver? styles.top_bar_closed:styles.top_bar_antic}></div>
+        <div className={isOpen?styles.middle_bar:styles.middle_bar_closed}></div>
+        <div className={isOpen?styles.bottom_bar:isAnimOver? styles.bottom_bar_closed:styles.bottom_bar_antic}></div> */}
+
         <div className={isOpen?styles.top_bar:styles.top_bar_closed}></div>
         <div className={isOpen?styles.middle_bar:styles.middle_bar_closed}></div>
         <div className={isOpen?styles.bottom_bar:styles.bottom_bar_closed}></div>
