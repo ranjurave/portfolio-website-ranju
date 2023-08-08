@@ -7,7 +7,7 @@ function About() {
     <div className={styles.about}>
       <div>
         <div>
-          <p className= {styles.hello}>hello I am,</p>
+          <p className= {styles.hello}>Hello I am,</p>
           <p className={styles.name}>Ranju Raveendran</p>
           <p className={styles.developer}>Software Developer</p>
           <p className={styles.blob}>
