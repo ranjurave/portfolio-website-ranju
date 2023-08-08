@@ -7,7 +7,7 @@ function About() {
     <div className={styles.about}>
       <div>
         <div>
-          <p className= {styles.hello}>hello I am</p>
+          <p className= {styles.hello}>Hello I am</p>
           <p className={styles.name}>Ranju Raveendran</p>
           <p className={styles.developer}>Web and Game Developer</p>
           <p className={styles.blob}>Experience in software development and 3D animation. Proficient in Web, Game, XR Development and 3D Graphics. Completed Master of Creative Technologies, Degree in Computer Science and Advanced Software Development courses.</p>
