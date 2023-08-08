@@ -3,6 +3,7 @@ import { forwardRef, useState } from "react";
 import styles from './Works.module.css'
 import dashboard from '../images/MainWindow.jpeg';
 import app_styles from'../App.module.css'
+
 const Works = forwardRef((props, ref) =>{
   const [showAnimation, setShowAnimation] = useState(true);
   const [showWebdev, setShowWebdev] = useState(true);
