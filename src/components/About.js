@@ -15,7 +15,7 @@ function About() {
             XR Development, and Computer Graphics. Currently, I am a lecturer at Yoobee College, teaching Software Engineering, as well as working on freelance software projects. 
             I have completed a Master of Creative Technologies, a Degree in Computer Science, and an Advanced Software Development course.
             <br></br><br></br>
-            Proficient in Full Stack Development and Game & App Development, and skilled in C++, C#, Python, .NET, React, HTML, CSS, JavaScript, SQL, and many more, 
+            Proficient in Full Stack Development and Game and App Development, and skilled in C++, C#, Python, .NET, React, HTML, CSS, JavaScript, SQL, and many more, 
             with a proven track record of picking up new technologies quickly and functioning well even under pressure.</p>
           <a href="/files/RanjuRaveendranCV.pdf" download>
             <button className={styles.downloadbutton}>Download CV</button>
