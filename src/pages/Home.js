@@ -54,9 +54,6 @@ function Home() {
   return (
     <div className={styles.full_page}>
       <Menu selectedMenuItem={selectedMenuItem}/>
-      {/* <div ref={homeref} className={styles.Banner}>
-        <Canvas><Banner/></Canvas>
-      </div> */}
       <div ref={aboutref}><About/></div>
       <div ref={expref}><Experience/></div>
       <div ref={workref}><Works/></div>
