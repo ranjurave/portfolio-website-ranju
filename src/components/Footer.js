@@ -10,7 +10,7 @@ function Footer() {
                     <p>email: ranjurave@gmail.com</p>
                     <p>PH: +64-02102467215</p>
                     <p>&copy; 2023 Ranju Raveendran</p>
-                    <Link to='/bb'> <p>bb</p>  </Link>
+                    <Link to='/mm'> <p>mm</p>  </Link>
                 </div>
             </footer>
         </div>
