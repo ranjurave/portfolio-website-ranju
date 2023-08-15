@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from './pages/Home';
-import BrickBreaker from './pages/BrickBreaker';
+import MemoryGame from "./pages/MemoryGame";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="bb" element={<BrickBreaker/>}/>
+          <Route path="mm" element={<MemoryGame/>}/>
         </Routes>
       </Router>
     </div>

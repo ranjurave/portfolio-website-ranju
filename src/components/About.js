@@ -7,9 +7,9 @@ function About() {
     <div className={styles.about}>
       <div>
         <div>
-          <p className= {styles.hello}>Hello... I am,</p>
+          <p className= {styles.hello}>Hello I am,</p>
           <p className={styles.name}>Ranju Raveendran</p>
-          <p className={styles.developer}>Software Developer</p>
+          {/* <p className={styles.developer}>Software Developer</p> */}
           <p className={styles.blob}>
             A coding enthusiast and an admirer of the latest technologies, I have over a decade of experience working in a wide range of areas, including Web Development, Game Development, 
             XR Development, and Computer Graphics. Currently, I am a lecturer at Yoobee College, teaching Software Engineering, as well as working on freelance software projects. 
@@ -18,7 +18,7 @@ function About() {
             Proficient in Full Stack Development and Game and App Development, and skilled in C++, C#, Python, .NET, React, HTML, CSS, JavaScript, SQL, and many more, 
             with a proven track record of picking up new technologies quickly and functioning well even under pressure.</p>
           <a href="/files/RanjuRaveendranCV.pdf" download>
-            <button className={styles.downloadbutton}>Download CV</button>
+            {/* <button className={styles.downloadbutton}>Download CV</button> */}
           </a>
         </div>
         <div className={styles.socials}>
