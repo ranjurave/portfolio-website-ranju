@@ -1,0 +1,12 @@
+.canvasbody{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.react-router-dom{
+    background-color: rgb(61, 165, 255);
+    height: 100% !important;
+}
+h1{
+    color: blueviolet;
+}

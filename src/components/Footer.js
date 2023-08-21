@@ -9,8 +9,7 @@ function Footer() {
                 <div className={styles.container}>
                     <p>email: ranjurave@gmail.com</p>
                     <p>PH: +64-02102467215</p>
-                    <p>&copy; 2023 Ranju Raveendran</p>
-                    <Link to='/bb'> <p>bb</p>  </Link>
+                    <Link to='/bb'> <p>&copy; 2023 Ranju Raveendran</p></Link>
                 </div>
             </footer>
         </div>
