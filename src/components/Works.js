@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import styles from './Works.module.css'
 import dashboard from '../images/MainWindow.jpeg';
 import threejs from '../images/threejs.png';
+import tictac from '../images/tictactoe.png';
 import app_styles from'../App.module.css'
 
 const Works = forwardRef((props, ref) =>{
@@ -72,6 +73,12 @@ const Works = forwardRef((props, ref) =>{
         <div className={styles.grid_item}>     
             <Link to='/driveme' target='_self'> <img src={threejs}></img></Link>
             <p className={styles.description}>ThreeJS page</p>
+        </div>:<></>
+        }
+        {showWebdev ?
+        <div className={styles.grid_item}>     
+            <Link to='/tictactoe' target='_self'> <img src={tictac}></img></Link>
+            <p className={styles.description}>TicTacToe</p>
         </div>:<></>
         }
         {showAnimation ?
