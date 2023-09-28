@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import BrickBreaker from './pages/BrickBreaker';
 import DriveMe from "./pages/DriveMe";
 import TicTacToe from "./pages/TicTacToe";
+import ToDoApp from "./pages/ToDoApp";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="bb" element={<BrickBreaker/>}/>
           <Route path="driveme" element={<DriveMe/>}/>
           <Route path="tictactoe" element={<TicTacToe/>}/>
+          <Route path="todoapp" element={<ToDoApp/>}/>
         </Routes>
       </Router>
     </div>

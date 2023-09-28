@@ -1,0 +1,32 @@
+body{
+  font-family: sans-serif;
+
+}
+.header{
+  margin: 0;
+  background-color: bisque;
+  font-size: 2em;
+  color: blue;
+  height: 50px;
+  padding: 20px;
+}
+.todoform{
+  width: 100%;
+  margin-top: 20px;
+}
+.todoinput{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  font-size:1.5em;
+  height: 50px;
+}
+.todobutton{
+  width: 100%;
+  border: none;
+  height: 50px;
+  background-color: brown;
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+}
